@@ -1,0 +1,45 @@
+.container{
+    background-color: black;
+    width: 500px;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.container h1 {
+    margin-left: 0px;
+}
+.container span{
+    margin-left: -300px;
+    font-size: 20px;
+}
+#input{
+    height: 30px;
+    margin-top: -25px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    margin-right: -50px;
+}
+#cm{
+    background-color: red;
+    color: white;
+    margin-top: 50px;
+    margin-left: -28px;
+    height: 30px;
+    width: 170px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#output{
+    margin-top: 60px;
+    background-color: black;
+    border: none;
+    color: yellow;
+    outline: none;
+    font-size: 25px;
+    margin-right: -120px;
+}
